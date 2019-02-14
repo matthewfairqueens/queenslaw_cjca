@@ -60,11 +60,6 @@ body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(
   background-color: $tirshgreen; 
 }
 
-body.queenslaw-sub-site #branding .block-logo svg {
-  height: inherit;
-  padding-top: inherit;
-}
-
 #block-queenslaw,#block-smithandlawlogos {
   float: right;
   height: 0;
@@ -122,6 +117,7 @@ body.queenslaw-sub-site #branding .block-logo svg {
     svg {
       padding-top: 7px;
       padding-bottom: 7px;
+      height: 65px;
     }
   }
   .block-logo {
