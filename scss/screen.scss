@@ -128,6 +128,11 @@ body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(
   } 
 }
 
+body.queenslaw-su-site #branding .block-logo svg {
+  height: 72px;
+  padding-top: 0;
+}
+
 
 .node--view-mode-detail .field--name-field-category {
   .field__items * {
