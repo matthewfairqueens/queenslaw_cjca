@@ -44,20 +44,36 @@ body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser.has-teaser
   background-color: rgba(0,0,0,0.03667);
 }
 
-body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(4) {
-  background-color: $tirsh175orange;
+body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(1) {
+  background-color: $red;
 }
 
-body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(5) {
+body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(2) {
   background-color: $blue;
 }
 
+body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(3) {
+  background-color: $purple;
+}
+
+body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(4) {
+  background-color: $green;
+}
+
+body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(5) {
+  background-color: $orange;
+}
+
 body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(6) {
-  background-color: $tirsh175grey;
+  background-color: $yellow;
 }
 
 body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(7) {
   background-color: $tirshgreen; 
+}
+
+body.has-queenslaw-alternate-teasers #main .queenslaw-teasers .teaser:nth-child(8) {
+  background-color: $tirsh175grey;
 }
 
 #block-queenslaw,#block-smithandlawlogos {
@@ -263,33 +279,6 @@ body.front {
           }
           ul.links.inline {
             right: $two-thirds;
-          }
-        }
-      }
-      .teaser-about {
-        background-color: $red;
-      }
-      .teaser-research {
-        background-color: $blue;
-      }
-      .teaser-advisory {
-        background-color: $purple;
-      }
-       .teaser-news {
-        background-color: $green;
-      }
-      .teaser-incubator {
-        background-color: $orange;
-      }
-      .teaser-education {
-        background-color: $yellow;
-        color: $dark-grey;
-        article {
-          ul.links.inline {
-            li.node-readmore a span {
-              border-color: $dark-grey;
-              color: $dark-grey;
-            }
           }
         }
       }
