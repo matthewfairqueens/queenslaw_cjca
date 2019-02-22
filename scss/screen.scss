@@ -313,6 +313,9 @@ body #main .queenslaw-teasers .teaser:nth-child(1) {
 body #main .queenslaw-teasers .teaser:nth-child(2) {
   background-color: $yellow;
   color: #222;
+  article ul.links.inline li.node-readmore a span {
+    border-color: #222;
+  }
 }
 
 body #main .queenslaw-teasers .teaser:nth-child(3) {
